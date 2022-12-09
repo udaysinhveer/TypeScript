@@ -1,0 +1,28 @@
+var Months;
+(function (Months) {
+    Months[Months["year"] = 0] = "year";
+    Months[Months["January"] = 1] = "January";
+    Months[Months["February"] = 2] = "February";
+    Months[Months["March"] = 3] = "March";
+    Months[Months["April"] = 4] = "April";
+    Months[Months["May"] = 5] = "May";
+    Months[Months["June"] = 6] = "June";
+    Months[Months["July"] = 7] = "July";
+    Months[Months["August"] = 8] = "August";
+    Months[Months["September"] = 9] = "September";
+    Months[Months["October"] = 10] = "October";
+    Months[Months["November"] = 11] = "November";
+    Months[Months["December"] = 12] = "December";
+})(Months || (Months = {}));
+console.log(Months[1]);
+console.log(Months[2]);
+console.log(Months[3]);
+console.log(Months[4]);
+console.log(Months[5]);
+console.log(Months[6]);
+console.log(Months[7]);
+console.log(Months[8]);
+console.log(Months[9]);
+console.log(Months[10]);
+console.log(Months[11]);
+console.log(Months[12]);
