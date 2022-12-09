@@ -13,3 +13,14 @@ function checkBoolean() {
     console.log(b3);
 }
 checkBoolean();
+var a1 = {
+    productId: 2873,
+    productName: 'iphone',
+    productPrice: 90000
+};
+console.log(a1);
+// homogeneous - all data is a same type 
+var arr1 = ['Uday', 'Nikita', 'Nikhil', "Suraj"];
+// heterogeneous - we can store different type of data
+var arr2 = ["uday", 200, 103, 'veer', 27, true];
+console.log(arr2);
