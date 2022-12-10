@@ -4,7 +4,7 @@ var emp = {
 }
 
 for (const empUday in emp) {
-   console.log(empUday);
-//    console.log(emp[empUday]);
+   console.log(empUday); // it will return properties 
+  console.log(emp[empUday]); // it will return values 
    
 }
