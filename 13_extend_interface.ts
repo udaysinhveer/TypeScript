@@ -24,3 +24,34 @@ var myCar: ICar ={
     seats : 6,
     auto : true
 };
+
+
+// interface assignment
+
+interface IMen {
+    height: number;
+    weight : number
+};
+
+interface IWomen {
+    color : string;
+    education : string
+};
+
+interface IPerson extends IMen, IWomen{
+    country: string;
+    state : string;
+    mobileNO : number
+    
+}
+
+var person: IPerson = {
+    country:"india",
+    state : "Maharashtra",
+    mobileNO : 1234567890,
+    height : 165,
+    weight : 50,
+    color : "Fair",
+    education : "BA Political Sciences"
+
+}
