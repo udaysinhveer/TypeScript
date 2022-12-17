@@ -1,3 +1,4 @@
+// enum is a sequence of constant values
 var Gender;
 (function (Gender) {
     Gender[Gender["Male"] = 0] = "Male";
@@ -5,6 +6,9 @@ var Gender;
 })(Gender || (Gender = {}));
 console.log(Gender.Male);
 console.log(Gender.Female);
+// another way to access
+console.log(Gender[0]);
+console.log(Gender[1]);
 var Weekends;
 (function (Weekends) {
     Weekends[Weekends["saturday"] = 6] = "saturday";
