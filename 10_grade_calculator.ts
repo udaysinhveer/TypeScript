@@ -6,7 +6,6 @@ var chemMarks:any = prompt("Enter Chemistry Marks");
 
 var totalMarks : any = +(mathMarks) + +(phyMarks) + +(chemMarks);
 
-
 var averageMarks = totalMarks/3
 
 console.log(`Your Marks Of Mathematics are : ${mathMarks}`);
@@ -15,7 +14,6 @@ console.log(`Your Marks Of Chemistry are : ${chemMarks}`);
 
 console.log(`Your Total Marks are : ${totalMarks}`);
 console.log(`Your average marks are: ${averageMarks}`);
-
 
 if (averageMarks>90) {
     console.log(`Your Grade is "A"`);
