@@ -53,5 +53,6 @@ var person: IPerson = {
     weight : 50,
     color : "Fair",
     education : "BA Political Sciences"
-
 }
+
+
